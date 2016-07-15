@@ -1,0 +1,84 @@
+html, body {
+	background: #fff;
+	font-family: "Playfair Display", serif;
+	font-weight: 300;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background: url("../img/hero_image_unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: transparent;
+    height: 500px;
+}
+
+.jumbotron .container {
+    width: 100%;
+    padding: 0;
+    margin-top: -46px;
+    color: #c5c6c9;
+}
+
+.header {
+    background: rgba(0,0,0,.5);
+    height: 100px;
+}
+
+.header ul, .footer ul {
+  padding: 0 20px;
+  margin: 0;
+  list-style: none;
+}
+
+.header li {
+  display: inline;
+  width: 100px;
+  text-align: center;
+  margin: 6px;
+}
+
+.header li.active a {
+  background-color: #f01251;
+}
+
+.header li a {
+  color: #f01251;
+}
+
+.nav-pills>li>a {
+  border-radius: 4px;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.main {
+    text-align: center;
+}
+
+.main h1 {
+    padding-top: 80px;
+}
+
+.main p {
+    font-size: 26px;
+}
+
+.nav {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.nav li {
+    color: #000;
+    display: inline;
+    font-size: 14px;
+}
